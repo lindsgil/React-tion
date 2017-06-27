@@ -8,19 +8,6 @@
     <div id="app">
       React has not yet rendered
     </div>
-    <script src="node_modules/react/dist/react.js"></script>
-    <script src="node_modules/react-dom/dist/react-dom.js"></script>
-    <script>
-      var myFirstComponent = React.createClass({
-        render: function() {
-          return(
-            React.DOM.div(null,
-              React.DOM.h1(null, 'this is my first component!')
-            )
-          )
-        }
-      })
-      ReactDOM.render(React.createElement(myFirstComponent), document.getElementById('app'))
-    </script>
+    <script src="bundle.js"></script>
   </body>
 </html>
