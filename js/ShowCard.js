@@ -1,22 +1,26 @@
 import React from 'react'
+import { Link } from 'react-router'
 const { string } = React.PropTypes
 
 const ShowCard = React.createClass({
   propTypes: {
     title: string,
     year: string,
-    description: string
+    description: string,
+    imdbID: string
   },
   render () {
-    const { title, year, description } = this.props.show
+    const { title, year, description, imdbID } = this.props.show
     return (
-      <div className='show-card'>
-        <div>
-          <h3>{title}</h3>
-          <h4>({year})</h4>
-          <p>{description}</p>
+      <Link to={`/details/${imdbID}`}>
+        <div className='show-card'>
+          <div>
+            <h3>{title}</h3>
+            <h4>({year})</h4>
+            <p>{description}</p>
+          </div>
         </div>
-      </div>
+      </Link>
     )
   }
 })

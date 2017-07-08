@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from './Header'
 const { shape, string } = React.PropTypes
 
 const Details = React.createClass({
@@ -7,16 +8,33 @@ const Details = React.createClass({
       title: string,
       year: string,
       // poster: string,
-      trailer: string
+      trailer: string,
+      imdbID: string
     })
+  },
+  getInitialState () {
+    return {
+      omdbData: {}
+    }
+  },
+  componentDidMount () {
+    axios.get(`http://www.omdbapi.com/?i=${this.props.show.imdbID}`)
+    .then((response) => {
+      this.setState({omdbData: response.data})
+    })
+    .catch((error) => console.error('axios error', error))
   },
   render() {
     const { title, description, year, trailer } = this.props.show
+    let rating
+    if (this.state.omdbData.imdbRating) {
+      rating = <h3>{this.state.omdbData.imdbRating}</h3>
+    } else {
+      rating = <img src='/public/img/loading.png' alt='loading indicator' />
+    }
     return (
       <div className='details'>
-        <header>
-          <h1>Search Media</h1>
-        </header>
+        <Header />
         <section>
           <h1>{title}</h1>
           <h2>({year})</h2>
