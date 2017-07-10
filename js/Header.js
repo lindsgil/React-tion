@@ -1,7 +1,12 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import { setSearchTerm } from './actionCreators'
 import { Link } from 'react-router'
 
 class Header extends React.Component {
+  handleSearchTermChange () {
+    
+  }
   render () {
     let utilSpace
     if (this.props.showSearch) {
@@ -30,7 +35,7 @@ class Header extends React.Component {
 
 const { func, bool, string } = React.PropTypes
 Header.propTypes = {
-  handleSearchTermChange: func,
+  dispatch: func,
   showSearch: bool,
   searchTerm: string
 }
