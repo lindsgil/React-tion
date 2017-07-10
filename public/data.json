@@ -1,150 +1,171 @@
 {
     "shows": [{
-        "title": "House of Cards",
-        "year": "2013–",
-        "description": "A Congressman works with his equally conniving wife to exact revenge on the people who betrayed him.",
-        "poster": "hoc.jpg",
+        "title": "Big Little Lies",
+        "year": "2017",
+        "fact": "Nicole Kidman was once engaged to Lenny Kravitz.",
+        "description": "Based on the book by Liane Moriarty, this dark comedic drama that weaves a tale of murder and mischief as it explores society’s myth of perfection and the contradictions that exist beneath our idealized façade of marriage, sex, parenting and friendship. ",
+        "poster": "bll.jpg",
         "imdbID": "tt1856010",
-        "trailer": "NTzycsqxYJ0"
+        "trailer": "WpMa8YFcjtE"
     }, {
-        "title": "Daredevil",
-        "year": "2015–",
-        "description": "A blind lawyer with his other senses superhumanly enhanced fights crime as a costumed superhero.",
-        "poster": "dd.jpg",
+        "title": "Lucky Louie",
+        "year": "2006-2007",
+        "fact": "Lucky Louie was filmed before a live studio audience.",
+        "description": "Developed by Louis C.K., a sitcom that tells the story of a blue-collar couple raising their young daughter",
+        "poster": "lucky.jpg",
         "imdbID": "tt3322312",
-        "trailer": "m5_A0Wx0jU4"
+        "trailer": "KEtAfAa67TY"
     }, {
-        "title": "Orange Is the New Black",
-        "year": "2013–",
-        "description": "The story of Piper Chapman, a woman in her thirties who is sentenced to fifteen months in prison after being convicted of a decade-old crime of transporting money for her drug-dealing girlfriend.",
-        "poster": "oitnb.jpg",
+        "title": "Silicon Valley",
+        "year": "2014–",
+        "fact": "There are fan-made websites for calculating a Weissman Score.",
+        "description": "In the high-tech gold rush of modern Silicon Valley, the people most qualified to succeed are the least capable of handling success.",
+        "poster": "silval.jpg",
         "imdbID": "tt2372162",
-        "trailer": "th8WT_pxGqg"
+        "trailer": "69V__a49xtw"
     }, {
-        "title": "Arrested Development",
-        "year": "2003–",
-        "description": "Level-headed son Michael Bluth takes over family affairs after his father is imprisoned. But the rest of his spoiled, dysfunctional family are making his job unbearable.",
-        "poster": "ad.jpg",
+        "title": "West World",
+        "year": "2016–",
+        "fact": "The budget for the first series was around $100 million.",
+        "description": "Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged.",
+        "poster": "ww.jpg",
         "imdbID": "tt0367279",
-        "trailer": "vzVhPCMAxWQ"
+        "trailer": "JctIuZfSsa4"
     }, {
-        "title": "Unbreakable Kimmy Schmidt",
-        "year": "2015–",
-        "description": "A woman is rescued from a doomsday cult and starts life over again in New York City.",
-        "poster": "uks.jpg",
+        "title": "True Blood",
+        "year": "2008-2014",
+        "fact": "The opening sequence won an Emmy in 2009 for Outstanding Main Title Design.",
+        "description": "Thanks to a Japanese scientist's invention of synthetic blood, vampires have progressed from legendary monsters to fellow citizens overnight.",
+        "poster": "tb.jpg",
         "imdbID": "tt3339966",
-        "trailer": "ZBJHP2B4bjc"
+        "trailer": "hE8wwYzKJOs"
     }, {
-        "title": "Marco Polo",
-        "year": "2014–",
-        "description": "In a world replete with greed, betrayal, sexual intrigue and rivalry, \"Marco Polo\" is based on the famed explorer's adventures in Kublai Khan's court in 13th century China.",
-        "poster": "mp.jpg",
+        "title": "The Larry Sanders Show",
+        "year": "1992-1998",
+        "fact": "The Hey Now episode was actually the first episode written and produced.",
+        "description": "Created by and starring Garry Shandling as a fictional late-night talk-show host.",
+        "poster": "tls.jpg",
         "imdbID": "tt2189461",
-        "trailer": "CeUhXYmGKU4"
+        "trailer": "rK58Nr8f4zU"
     }, {
-        "title": "Bloodline",
-        "year": "2015–",
-        "description": "A family of adult siblings find that their secrets and scars are revealed when their black sheep of a brother returns home.",
-        "poster": "bl.jpg",
+        "title": "Enlightened",
+        "year": "2011-2013",
+        "fact": "Laura Dern's film debut was a cameo in her mother's film White Lightning.",
+        "description": "A well-intentioned employee of a Southern California corporation who, after flipping out and going to anger-management rehab, emerges with a singular, if at times misguided, mission to make her company more responsible.",
+        "poster": "enli.jpg",
         "imdbID": "tt3520702",
-        "trailer": "tRnS8FkcXNk"
+        "trailer": "LBq_J08srVA"
     }, {
-        "title": "BoJack Horseman",
-        "year": "2014–",
-        "description": "Meet the most beloved sitcom horse of the '90s - 20 years later. BoJack Horseman was the star of the hit TV show \"Horsin' Around,\" but today he's washed up, living in Hollywood, complaining about everything, and wearing colorful sweaters.",
-        "poster": "bh.jpg",
+        "title": "Six Feet Under",
+        "year": "2001-2005",
+        "fact": "The opening sequence was shot in Seattle.",
+        "description": "The cathartic journey of the Fisher family, whose personal trials and tribulations are played out against the reflective backdrop of an independent funeral home in LA.",
+        "poster": "6ft.jpg",
         "imdbID": "tt3398228",
-        "trailer": "5sGsBoX6vUo"
+        "trailer": "E3gYi-KvKug"
     }, {
-        "title": "Hemlock Grove",
-        "year": "2013–",
-        "description": "A teenage girl is brutally murdered, sparking a hunt for her killer. But in a town where everyone hides a secret, will they find the monster among them?",
-        "poster": "hg.jpg",
+        "title": "Grey Gardens",
+        "year": "2009",
+        "fact": "Little Edie had a night club cabaret show after the movie.",
+        "description": "Using the original documentary as the film's framework, told over the span of four decades, the film focuses on their glamorous and well-heeled lives long before the making of the documentary and on the circumstances behind their riches-to-rags story. ",
+        "poster": "gg.jpg",
         "imdbID": "tt2309295",
-        "trailer": "rlZUsPcChgI"
+        "trailer": "3LXmQfbp-LM"
     }, {
-        "title": "The Killing",
-        "year": "2011–",
-        "description": "A police investigation, the saga of a grieving family, and a Seattle mayoral campaign all interlock after the body of 17-year-old Rosie Larsen is found in the trunk of a submerged car.",
-        "poster": "tk.jpg",
+        "title": "The Sopranos",
+        "year": "1999-2007",
+        "fact": "Livia Soprano was supposed to die in season 1.",
+        "description": "The story revolves around the New Jersey-based Italian American mobster Tony Soprano. The series portrays the difficulties he faces as he tries to balance the conflicting requirements of his home life and his criminal organization.",
+        "poster": "ts.jpg",
         "imdbID": "tt1637727",
-        "trailer": "OkbfvPeH3G0"
+        "trailer": "NZNOUAbHSgk"
     }, {
-        "title": "Love",
-        "year": "2016–",
-        "description": "A program that follows a couple who must navigate the exhilarations and humiliations of intimacy, commitment and other things they were hoping to avoid.",
-        "poster": "l.jpg",
+        "title": "The Wire",
+        "year": "2002-2008",
+        "fact": "Barack Obama has cited it as his favorite show.",
+        "description": "Baltimore drug scene, seen through the eyes of drug dealers and law enforcement.",
+        "poster": "wire.jpg",
         "imdbID": "tt4061080",
-        "trailer": "Ym3LoSj9Xj8"
+        "trailer": "uDcQbk78CSw"
     }, {
-        "title": "Master of None",
-        "year": "2015–",
-        "description": "The personal and professional life of Dev, a 30-year-old actor in New York.",
-        "poster": "mon.jpg",
+        "title": "Behind The Candelabra",
+        "year": "2013",
+        "fact": "Mr. Showmanship learned to play piano by ear by the age of 4.",
+        "description": "A chronicle of the tempestuous six year romance between megastar singer, Liberace, and his young lover, Scott Thorson.",
+        "poster": "bc.jpg",
         "imdbID": "tt4635276",
-        "trailer": "6bFvb3WKISk"
+        "trailer": "TQ9OgbLCsUM"
     }, {
-        "title": "Flaked",
-        "year": "2016–",
-        "description": "Will Arnett will star as a self-help guru who needs a decent amount of help himself.",
-        "poster": "f.jpg",
+        "title": "Veep",
+        "year": "2012–",
+        "fact": "Armando Iannucci purposely didn't watch other American political shows when he developed Veep.",
+        "description": "Former Senator Selina Meyer finds that being Vice President of the United States is nothing like she hoped and everything that everyone ever warned her about.",
+        "poster": "veep.jpg",
         "imdbID": "tt4973548",
-        "trailer": "iKOpvm7BcOo"
+        "trailer": "xjF6Tp2PDss"
     }, {
-        "title": "Jessica Jones",
-        "year": "2015–",
-        "description": "A former superhero decides to reboot her life by becoming a private investigator.",
-        "poster": "jj.jpg",
+        "title": "Curb Your Enthusiasm",
+        "year": "2000–",
+        "fact": "Each episode is based on an outline and no dialogue is ever written.",
+        "description": "The life and times of Larry David and the predicaments he gets himself in with his friends and complete strangers.",
+        "poster": "ce.jpg",
         "imdbID": "tt2357547",
-        "trailer": "nWHUjuJ8zxE"
+        "trailer": "ynUHYh6Gzqo"
     }, {
-        "title": "Narcos",
-        "year": "2015–",
-        "description": "A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar.",
-        "poster": "n.jpg",
+        "title": "Insecure",
+        "year": "2016–",
+        "fact": "Issa Rae created the Web series 'The Misadventures of Awkward Black Girl'.",
+        "description": "Follows the awkward experiences and tribulations of a modern-day African-American woman.",
+        "poster": "ins.jpg",
         "imdbID": "tt2707408",
-        "trailer": "U7elNhHwgBU"
+        "trailer": "YdKqUMZi5-I"
     }, {
-        "title": "Wet Hot American Summer: First Day of Camp",
-        "year": "2015–",
-        "description": "Follow the counselors and campers on their first day at Camp Firewood in the summer of 1981.",
-        "poster": "whas.jpg",
+        "title": "High Maintenance",
+        "year": "2016–",
+        "fact": "Nineteen episodes were made before partnering with HBO.",
+        "description": "A comedy that explores the private lives of unique New York individuals through a common thread: their weed deliveryman.",
+        "poster": "hm.jpg",
         "imdbID": "tt4341500",
-        "trailer": "PLlMTn_Jzok"
+        "trailer": "tjq1KotC_1E"
     }, {
-        "title": "Club de Cuervos",
-        "year": "2015–",
-        "description": "When the patriarch of a prominent family dies, his heirs battle to determine who will gain control of his beloved soccer team: The Cuervos of Nuevo Toledo.",
-        "poster": "cdc.jpg",
+        "title": "Bored To Death",
+        "year": "2009-2011",
+        "fact": "There has been talk about it becoming a movie.",
+        "description": "A well-meaning but struggling writer decides to lead a sort of double life by pretending to be a private detective using the methods he read about in old detective novels.",
+        "poster": "bod.jpg",
         "imdbID": "tt4680240",
-        "trailer": "TvUVBVRlCV8"
+        "trailer": "pX8e2HP-n2g"
     }, {
-        "title": "Making a Murderer",
-        "year": "2015–",
-        "description": "Filmed over a 10-year period, Making a Murderer is an unprecedented real-life thriller about Steven Avery, a DNA exoneree who, while in the midst of exposing corruption in local law enforcement, finds himself the prime suspect in a grisly new crime.",
-        "poster": "mam.jpg",
+        "title": "Girls",
+        "year": "2012–2017",
+        "fact": "Girls is one of HBO's highest-rated series.",
+        "description": "A comedy about the experiences of a group of girls in their early 20s.",
+        "poster": "girls.jpg",
         "imdbID": "tt5189670",
-        "trailer": "qxgbdYaR_KQ"
+        "trailer": "554bdNWCXmA"
     }, {
-        "title": "Sense8",
-        "year": "2015–",
-        "description": "A group of people around the world are suddenly linked mentally, and must find a way to survive being hunted by those who see them as a threat to the world's order.",
-        "poster": "s8.jpg",
+        "title": "The Leftovers",
+        "year": "2014–",
+        "fact": "No religious or scientific meaning exists for the disappearance.",
+        "description": "Three years after the disappearance of 2% of the global population, a group of people from New York struggle to continue their lives, while they cope with the tragedy of the unexplained nature of the event.",
+        "poster": "over.jpg",
         "imdbID": "tt2431438",
-        "trailer": "riLgCIvE9aU"
+        "trailer": "FLT3YUALJno"
     }, {
-        "title": "Fuller House",
-        "year": "2016–",
-        "description": "D.J. Tanner-Fuller is a widow and mother of three. Things become too much to handle, so she asks for help from her sister Stephanie and her best friend Kimmy.",
-        "poster": "fh.jpg",
+        "title": "Not Necessarily The News",
+        "year": "1982-1990",
+        "fact": "It was Conan O'brien's first professional television writing gig.",
+        "description": "An offbeat look at current events, often by dubbing over news video with farcical commentary.",
+        "poster": "not.jpg",
         "imdbID": "tt3986586",
-        "trailer": "CXuGLswn2l0"
+        "trailer": "UBcMCbGx6ug"
     }, {
-        "title": "w/ Bob & David",
-        "year": "2016–",
-        "description": "Bob and David emerge from the time machine they entered sixteen years ago and are reunited with the cast of Mr. Show.",
-        "poster": "wbd.jpg",
+        "title": "Game Of Thrones",
+        "year": "2011–",
+        "fact": "There's an unaired pilot.",
+        "description": "Nine noble families fight for control over the mythical lands of Westeros, while a forgotten race returns after being dormant for thousands of years.",
+        "poster": "got.jpg",
         "imdbID": "tt4574708",
-        "trailer": "QyZ9l8anS9I"
+        "trailer": "1Mlhnt0jMlg"
     }]
 }

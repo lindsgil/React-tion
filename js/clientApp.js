@@ -17,14 +17,15 @@ const App = React.createClass({
         <Provider store={store}>
           <div className='app'>
             <Match exactly pattern='/' component={Landing} />
-            <Match pattern='/search'
-              component={(props) =>  <Search shows={preload.shows} {...props} />}
+            <Match
+              pattern='/search'
+              component={(props) => <Search shows={preload.shows} {...props} />}
             />
             <Match
               pattern='/details/:id'
               component={(props) => {
                 const shows = preload.shows.filter((show) => props.params.id === show.imdbID)
-                return <Details show={show[0]} {...props} />
+                return <Details show={shows[0]} {...props} />
               }}
             />
           </div>

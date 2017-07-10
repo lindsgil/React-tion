@@ -4,13 +4,18 @@ import { setSearchTerm } from './actionCreators'
 import { Link } from 'react-router'
 
 class Header extends React.Component {
-  handleSearchTermChange () {
-    
+  constructor (props) {
+    super(props)
+
+    this.handleSearchTermChange = this.handleSearchTermChange.bind(this)
+  }
+  handleSearchTermChange (event) {
+    this.props.dispatch(setSearchTerm(event.target.value))
   }
   render () {
     let utilSpace
     if (this.props.showSearch) {
-      utilSpace = <input onChange={this.props.handleSearchTermChange} value={this.props.searchTerm} type='text' placeholder='Search' />
+      utilSpace = <input onChange={this.handleSearchTermChange} value={this.props.searchTerm} type='text' placeholder='Search' />
     } else {
       utilSpace = (
         <h2>
@@ -24,7 +29,7 @@ class Header extends React.Component {
       <header>
         <h1>
           <Link to='/'>
-          Search Content
+            MEdia
           </Link>
         </h1>
         {utilSpace}
@@ -40,4 +45,10 @@ Header.propTypes = {
   searchTerm: string
 }
 
-export default Header
+const mapStateToProps = (state) => {
+  return {
+    searchTerm: state.searchTerm
+  }
+}
+
+export default connect(mapStateToProps)(Header)
