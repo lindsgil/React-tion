@@ -32,7 +32,7 @@ const Details = React.createClass({
     if (this.state.omdbData.imdbRating) {
       rating = <h3>{this.state.omdbData.imdbRating}</h3>
     } else {
-      rating = <img src='/public/img/loading.png' alt='loading indicator' />
+      rating = <img src='/public/img/refresh-button.png' alt='loading indicator' />
     }
     return (
       <div className='details'>

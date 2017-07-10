@@ -29,7 +29,7 @@ class Header extends React.Component {
       <header>
         <h1>
           <Link to='/'>
-            MEdia
+            Hot Content!
           </Link>
         </h1>
         {utilSpace}

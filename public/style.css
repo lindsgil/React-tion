@@ -1,6 +1,3 @@
-/*
-   Hi, this is bad CSS, you shouldn't structure your CSS this way. Structurally based CSS is a bad idea because it's inherently brittle; if you change the way your nest something you break it. I'm doing it this way because it's less typing for everyone involved to not have to type long class names
-*/
 
 * {
   box-sizing: border-box;;
@@ -14,7 +11,7 @@ html {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url(/public/img/3.jpg);
+  background-image: url(/public/img/tvvv.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -35,8 +32,8 @@ html {
 }
 
 .landing > h1 {
-  color: #B10DC9;
-  font-family: Skia;
+  color: #000;
+  font-family: Helvetica;
   font-weight: normal;
 }
 
@@ -176,14 +173,14 @@ header {
 }
 
 header > h1 {
-  font-family: Skia;
+  font-family: Helvetica;
   font-weight: normal;
-  color: #B10DC9;
+  color: #000;
   margin: 0;
 }
 
 header > h1 > a {
-  color: #B10DC9;
+  color: #000;
   text-decoration: none;
 }
 

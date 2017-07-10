@@ -7,11 +7,12 @@ const ShowCard = React.createClass({
     poster: string.isRequired,
     title: string.isRequired,
     year: string.isRequired,
+    fact: string.isRequired,
     description: string.isRequired,
-    imdbID: string.isRequired
+    imdbID: string
   },
   render () {
-    const { poster, title, year, description, imdbID } = this.props
+    const { poster, title, year, description, fact, imdbID } = this.props
     return (
       <Link to={`/details/${imdbID}`}>
         <div className='show-card'>
@@ -20,6 +21,8 @@ const ShowCard = React.createClass({
             <h3>{title}</h3>
             <h4>({year})</h4>
             <p>{description}</p>
+            <br></br>
+            <p>Did you know: {fact}</p>
           </div>
         </div>
       </Link>
