@@ -21,7 +21,6 @@ const ShowCard = React.createClass({
             <h3>{title}</h3>
             <h4>({year})</h4>
             <p>{description}</p>
-            <br></br>
             <p>Did you know: {fact}</p>
           </div>
         </div>

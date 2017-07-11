@@ -24,7 +24,7 @@ const App = React.createClass({
             <Match
               pattern='/details/:id'
               component={(props) => {
-                const shows = preload.shows.filter((show) => props.params.id === show.imdbID)
+                const shows = preload.shows.filter((show) => this.props.id === show.imdbID)
                 return <Details show={shows[0]} {...props} />
               }}
             />
