@@ -4,6 +4,8 @@
 
 ### Project utilizing React.js, Redux, Node.js, Express, and Webpack.
 
+```After Fork, Install Yarn, npm i, npm run dev to run on localhost:8080 from the latest branch v-10```
+
 
 
 ## Landing View: gives user ability to search or browse all content
