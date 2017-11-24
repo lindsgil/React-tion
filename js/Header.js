@@ -1,38 +1,33 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { setSearchTerm } from './actionCreators'
+// import { setSearchTerm } from './actionCreators'
 import { Link } from 'react-router'
 
 class Header extends React.Component {
-  constructor (props) {
-    super(props)
 
-    this.handleSearchTermChange = this.handleSearchTermChange.bind(this)
+  handlePressClick (event) {
+    event.preventDefault()
+    this.context.router.transitionTo('/pressPage')
   }
-  handleSearchTermChange (event) {
-    this.props.dispatch(setSearchTerm(event.target.value))
-  }
+
   render () {
-    let utilSpace
-    if (this.props.showSearch) {
-      utilSpace = <input onChange={this.handleSearchTermChange} value={this.props.searchTerm} type='text' placeholder='Search' />
-    } else {
-      utilSpace = (
-        <h2>
-          <Link to='/search'>
-            Back
-          </Link>
-        </h2>
-      )
-    }
     return (
       <header>
+        <ul>
+          <li><img src='././public/img/future_sticky_u1.png' className='header-logo' /></li>
+        </ul>
         <h1>
           <Link to='/'>
             Hot Content!
           </Link>
         </h1>
-        {utilSpace}
+        <ul className='menu'>
+          <li><a href='https://nwfilmforum.org/events/future-is-zero/' className='header-ticket' target='_blank'>TICKETS</a></li>
+          <li><a href='http://thefutureis0.bigcartel.com/' className='header-merch' target='_blank'>MERCH</a></li>
+          <li><Link to='/pressPage' onClick={this.handlePressClick} className='header-press'>PRESS</ Link></li>
+          <li><a href='https://nwfilmforum.org/events/future-is-zero/' className='header-vids' target='_blank'>VIDS</a></li>
+          <li><a href='https://nwfilmforum.org/events/future-is-zero/' className='header-past-shows' target='_blank'>HALL OF FAME</a></li>
+        </ul>
       </header>
     )
   }
@@ -43,6 +38,10 @@ Header.propTypes = {
   dispatch: func,
   showSearch: bool,
   searchTerm: string
+}
+
+Header.contextTypes = {
+  router: React.PropTypes.func
 }
 
 const mapStateToProps = (state) => {

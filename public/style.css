@@ -3,6 +3,10 @@
   box-sizing: border-box;;
 }
 
+text {
+  white-space: normal;
+}
+
 html {
   font-family: Helvetica Neue, Helvetica, sans-serif;
 }
@@ -10,10 +14,11 @@ html {
 .app {
   position: relative;
   width: 100%;
-  height: 100vh;
-  background-image: url(/public/img/tvvv.jpg);
+  background-image: url(/public/img/bg.gif);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,8 +30,110 @@ html {
   color: white;
 }
 
+header {
+  z-index: 99999999;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+ul.menu {
+  list-style-type: none;
+  display: inherit;
+}
+
+.header-logo {
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.header-ticket {
+      font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+      color: #ffffff;
+      float: right;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+}
+
+a.header-ticket:hover {
+  color: #ffbfbf;
+}
+
+.header-merch {
+      font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+      color: #ffffff;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 30px;
+      margin-right: 50px;
+      margin-left: 10px;
+}
+
+a.header-merch:hover {
+  color: #ffbfbf;
+}
+
+.header-press {
+      font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+      color: #ffffff;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 30px;
+      margin-right: 50px;
+      margin-left: 10px;
+}
+
+a.header-press:hover {
+  color: #ffbfbf;
+}
+
+.header-vids {
+      font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+      color: #ffffff;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 30px;
+      margin-right: 50px;
+      margin-left: 10px;
+}
+
+a.header-vids:hover {
+  color: #ffbfbf;
+}
+
+.header-past-shows {
+      font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+      color: #ffffff;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 30px;
+      margin-right: 50px;
+      margin-left: 10px;
+}
+
+a.header-past-shows:hover {
+  color: #ffbfbf;
+}
+
+.video-player {
+  margin-top: 15vw;
+}
+
 .landing {
-  background-color: rgba(220, 220, 220, .7);
   padding: 15px 30px;
   border-radius: 5px;
 }
@@ -69,6 +176,47 @@ html {
   border-color: #333;
 }
 
+.about {
+  background-color: rgba(250,250,250, 1.0);
+  width: 60%;
+  padding: 20px;
+  font-family: 'Helvetica-Light', 'Helvetica Light', 'Helvetica';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 60px;
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.top-border {
+  margin-left: 5px;
+  position: absolute;
+  top: 10px;
+  left: 2px;
+}
+
+.lower-border {
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+  margin-right: 5px;
+  position: absolute;
+  bottom: 10px;
+  right: 2px;
+}
+
+.about-text {
+  margin-top: 30px;
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 15px;
+}
+
 .details, .search {
   position: absolute;
   top: 15px;
@@ -80,7 +228,157 @@ html {
   padding: 15px 30px;
   border-radius: 5px;
 }
+.about-border {
+  width: 98%;
+  height: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  border: #bfffce solid 3px;
+}
 
+.team {
+  background-color: #bfffce;
+  padding: 20px;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  margin-bottom: 200px
+}
+
+.team-top-border {
+  position: absolute;
+  margin-top: -7px;
+  left: 15px;
+}
+
+.team-bottom-border {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.team-logo {
+  background-image: url(/public/img/u42.gif);
+  background-repeat: no-repeat;
+  z-index: 999;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 35%;
+  height: 300px;
+  position: absolute;
+  left: 40%;
+  top: 44%;
+  -ms-transform: rotate(335deg);
+  -webkit-transform: rotate(335deg);
+  transform: rotate(335deg);
+}
+
+.team-text {
+  font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+  position: relative;
+  top: 25%;
+  right: 21%;
+  -ms-transform: rotate(-335deg);
+  -webkit-transform: rotate(-335deg);
+  transform: rotate(-335deg);
+  font-weight: 900;
+  font-style: normal;
+  font-size: 34px;
+  color: #1B1B1B;
+  line-height: 30px;
+}
+
+.team-background {
+  background-color: rgb(191, 255, 206);
+  height: auto;
+  width: 80%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-border {
+  background-color: #fff;
+  height: auto;
+  width: 90%;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.phone-number {
+  font-family: 'Arial-BoldItalicMT', 'Arial Bold Italic', 'Arial';
+  font-weight: 700;
+  font-style: italic;
+  color: #FFFFFF;
+}
+
+footer {
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.footer-logo {
+  background-image: url(././public/img/u46.png);
+}
+
+.footer-log:hover {
+  background-image: url(././public/img/u46_mouseOver.png);
+}
+
+.footer-social-media {
+  margin-right: 40px;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  padding: 0px;
+}
+
+li h1 {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  text-align: center;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+
+li h2 {
+  font-family: 'Helvetica-Light', 'Helvetica Light', 'Helvetica';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  line-height: 22px;
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+li {
+  text-decoration: none;
+}
 pre {
   text-align: left;
 }
@@ -155,21 +453,6 @@ pre {
 
 .search > header + div {
   margin-top: 25px;
-}
-
-header {
-  z-index: 10;
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  background-color: #fafafa;
-  padding: 8px 30px;
 }
 
 header > h1 {

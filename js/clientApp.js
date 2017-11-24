@@ -4,7 +4,7 @@ import { BrowserRouter, Match } from 'react-router'
 import { Provider } from 'react-redux'
 import store from './store'
 import Landing from './Landing'
-import Search from './Search'
+import PressPage from './PressPage'
 import Details from './Details'
 import preload from '../public/data.json'
 import '../public/normalize.css'
@@ -18,8 +18,8 @@ const App = React.createClass({
           <div className='app'>
             <Match exactly pattern='/' component={Landing} />
             <Match
-              pattern='/search'
-              component={(props) => <Search shows={preload.shows} {...props} />}
+              pattern='/pressPage'
+              component={PressPage} />}
             />
             <Match
               pattern='/details/:id'
