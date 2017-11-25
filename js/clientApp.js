@@ -4,13 +4,11 @@ import { BrowserRouter, Match } from 'react-router'
 import { Provider } from 'react-redux'
 import store from './store'
 import Landing from './Landing'
-import PressPage from './PressPage'
-import Details from './Details'
-import preload from '../public/data.json'
+import {PressPage} from './PressPage.js'
 import '../public/normalize.css'
 import '../public/style.css'
 
-const App = React.createClass({
+class App extends React.Component {
   render () {
     return (
       <BrowserRouter>
@@ -18,21 +16,14 @@ const App = React.createClass({
           <div className='app'>
             <Match exactly pattern='/' component={Landing} />
             <Match
-              pattern='/pressPage'
-              component={PressPage} />}
-            />
-            <Match
-              pattern='/details/:id'
-              component={(props) => {
-                const shows = preload.shows.filter((show) => this.props.id === show.imdbID)
-                return <Details show={shows[0]} {...props} />
-              }}
+              exactly pattern='/presspage'
+              component={PressPage}
             />
           </div>
         </Provider>
       </BrowserRouter>
     )
   }
-})
+}
 
 render(<App />, document.getElementById('app'))

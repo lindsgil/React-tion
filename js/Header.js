@@ -5,11 +5,6 @@ import { Link } from 'react-router'
 
 class Header extends React.Component {
 
-  handlePressClick (event) {
-    event.preventDefault()
-    this.context.router.transitionTo('/pressPage')
-  }
-
   render () {
     return (
       <header>
@@ -24,7 +19,7 @@ class Header extends React.Component {
         <ul className='menu'>
           <li><a href='https://nwfilmforum.org/events/future-is-zero/' className='header-ticket' target='_blank'>TICKETS</a></li>
           <li><a href='http://thefutureis0.bigcartel.com/' className='header-merch' target='_blank'>MERCH</a></li>
-          <li><Link to='/pressPage' onClick={this.handlePressClick} className='header-press'>PRESS</ Link></li>
+          <li><Link to='/presspage' className='header-press'>PRESS</ Link></li>
           <li><a href='https://nwfilmforum.org/events/future-is-zero/' className='header-vids' target='_blank'>VIDS</a></li>
           <li><a href='https://nwfilmforum.org/events/future-is-zero/' className='header-past-shows' target='_blank'>HALL OF FAME</a></li>
         </ul>
