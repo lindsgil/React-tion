@@ -3,14 +3,13 @@ import {connect} from 'react-redux'
 import { setSearchTerm } from './actionCreators'
 import Header from './Header.js'
 import Footer from './Footer.js'
-const { string, func, object } = React.PropTypes
+const { func, object } = React.PropTypes
 
 const Landing = React.createClass({
   contextTypes: {
     router: object
   },
   propTypes: {
-    searchTerm: string,
     dispatchSetSearchTerm: func
   },
   handleSearchTermChange (event) {
