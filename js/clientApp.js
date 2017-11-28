@@ -5,6 +5,7 @@ import { Provider } from 'react-redux'
 import store from './store'
 import Landing from './Landing'
 import {PressPage} from './PressPage.js'
+import {HallOfFame} from './HallOfFame.js'
 import '../public/normalize.css'
 import '../public/style.css'
 
@@ -18,6 +19,10 @@ class App extends React.Component {
             <Match
               exactly pattern='/presspage'
               component={PressPage}
+            />
+            <Match
+              exactly pattern='/halloffame'
+              component={HallOfFame}
             />
           </div>
         </Provider>

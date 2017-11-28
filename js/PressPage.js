@@ -33,8 +33,7 @@ export class PressPage extends React.Component {
           <h3 className='press'>January 4th, 2017 &#32;&#32;<i>Seattle Weekly</i></h3>
           <h1 className='press'>'The Future Is 0' -- A Live Game Show for Nihilists</h1>
           <p className='press'>During a rough winter two years ago, Claire Buss couldn’t stop watching game-show reruns.
-
-The artist and filmmaker found herself inexplicably drawn to their shiny, surreal aesthetic—and began to dream about hosting a game show of her own. “The desire to create a world is really appealing to me,” she says.</p>
+            The artist and filmmaker found herself inexplicably drawn to their shiny, surreal aesthetic—and began to dream about hosting a game show of her own. “The desire to create a world is really appealing to me,” she says.</p>
           <a href='http://www.seattleweekly.com/arts/the-future-is-0-a-locally-produced-live-game-show-for-nihilists/' className='press' target='_blank'>Read More...</a>
           <img src='./public/img/pinkborders.png' className='press-lower-border' />
         </div>

@@ -446,6 +446,42 @@ p.press {
   margin-bottom: 20vw;
 }
 
+.press-five {
+  margin-top: 80px;
+}
+
+.hof-six {
+  margin-top: 80px;
+  margin-bottom: 20vw;
+}
+
+.hof-div {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  position: relative;
+  padding: 20px;
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1.hof {
+  font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 28px;
+  margin-top: 0px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.hof-photo {
+  width: 200px;
+  height: auto;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
 
 
 ul {
