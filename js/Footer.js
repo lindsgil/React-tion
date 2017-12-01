@@ -5,14 +5,16 @@ class Footer extends React.Component {
   render () {
     return (
       <footer>
-        <ul>
-          <li><div className='footer-logo' /></li>
+        <ul className='menu'>
+          <li><div className='footer-social-twit' /></li>
+          <li><div className='footer-social-yt' /></li>
         </ul>
         <h1 className='phone-number'>
           1-844-666-TFIZ
         </h1>
         <ul className='menu'>
-          <li><img src='././public/img/u45.png' className='footer-social-media' /></li>
+          <li><div className='footer-social-fb' /></li>
+          <li><div className='footer-social-ig' /></li>
         </ul>
       </footer>
     )

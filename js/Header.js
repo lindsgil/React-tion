@@ -9,13 +9,10 @@ class Header extends React.Component {
     return (
       <header>
         <ul>
-          <li><img src='././public/img/future_sticky_u1.png' className='header-logo' /></li>
+          <li className='header-logo'>
+            <a href='/' />
+          </li>
         </ul>
-        <h1>
-          <Link to='/'>
-            Hot Content!
-          </Link>
-        </h1>
         <ul className='menu'>
           <li><a href='https://nwfilmforum.org/events/future-is-zero/' className='header-ticket' target='_blank'>TICKETS</a></li>
           <li><a href='http://thefutureis0.bigcartel.com/' className='header-merch' target='_blank'>MERCH</a></li>

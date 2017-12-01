@@ -51,6 +51,10 @@ ul.menu {
 }
 
 .header-logo {
+  background-image: url(././public/img/future_sticky_u1.png);
+  background-size: contain;
+  width: 300px;
+  background-repeat: no-repeat;
   height: 100px;
   position: absolute;
   top: 0;
@@ -66,7 +70,7 @@ ul.menu {
       text-decoration: none;
       font-size: 30px;
       margin-left: 10px;
-      margin-right: 10px;
+      margin-right: 30px;
 }
 
 a.header-ticket:hover {
@@ -79,7 +83,7 @@ a.header-ticket:hover {
       display: inline-block;
       text-decoration: none;
       font-size: 30px;
-      margin-right: 50px;
+      margin-right: 30px;
       margin-left: 10px;
 }
 
@@ -93,7 +97,7 @@ a.header-merch:hover {
       display: inline-block;
       text-decoration: none;
       font-size: 30px;
-      margin-right: 50px;
+      margin-right: 30px;
       margin-left: 10px;
 }
 
@@ -107,7 +111,7 @@ a.header-press:hover {
       display: inline-block;
       text-decoration: none;
       font-size: 30px;
-      margin-right: 50px;
+      margin-right: 30px;
       margin-left: 10px;
 }
 
@@ -344,8 +348,84 @@ footer {
   background-image: url(././public/img/u46_mouseOver.png);
 }
 
-.footer-social-media {
+.footer-social-ig {
+  background-image: url(././public/img/u46.png);
+  background-repeat: no-repeat;
+  background-size: contain;
   margin-right: 40px;
+  z-index: 9999;
+  height: 40px;
+  width: 40px;
+}
+
+.footer-social-ig:hover {
+  background-image: url(././public/img/u46_mouseOver.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 40px;
+  z-index: 9999;
+  height: 40px;
+  width: 40px;
+}
+
+.footer-social-fb {
+  background-image: url(././public/img/fb.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 40px;
+  z-index: 9999;
+  height: 40px;
+  width: 40px;
+}
+
+.footer-social-fb:hover {
+  background-image: url(././public/img/fb_over.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 40px;
+  z-index: 9999;
+  height: 40px;
+  width: 40px;
+}
+
+.footer-social-yt {
+  background-image: url(././public/img/yt.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 40px;
+  z-index: 9999;
+  height: 40px;
+  width: 40px;
+}
+
+.footer-social-yt:hover {
+  background-image: url(././public/img/yt_over.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 40px;
+  z-index: 9999;
+  height: 40px;
+  width: 40px;
+}
+
+.footer-social-twit {
+  background-image: url(././public/img/twitter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 40px;
+  z-index: 9999;
+  height: 40px;
+  width: 40px;
+}
+
+.footer-social-twit:hover {
+  background-image: url(././public/img/twitter_over.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 40px;
+  z-index: 9999;
+  height: 40px;
+  width: 40px;
 }
 
 .press-page {
