@@ -9,15 +9,15 @@ class Header extends React.Component {
     return (
       <header>
         <ul>
-          <li className='header-logo'>
-            <a href='/' />
-          </li>
+          <Link to='/'>
+            <li className='header-logo' />
+          </ Link>
         </ul>
         <ul className='menu'>
           <li><a href='https://nwfilmforum.org/events/future-is-zero/' className='header-ticket' target='_blank'>TICKETS</a></li>
           <li><a href='http://thefutureis0.bigcartel.com/' className='header-merch' target='_blank'>MERCH</a></li>
           <li><Link to='/presspage' className='header-press'>PRESS</ Link></li>
-          <li><a href='https://nwfilmforum.org/events/future-is-zero/' className='header-vids' target='_blank'>VIDS</a></li>
+          <li><Link to='/vids' className='header-vids'>HIT CLIPS</ Link></li>
           <li><Link to='/halloffame' className='header-past-shows'>HALL OF FAME</ Link></li>
         </ul>
       </header>

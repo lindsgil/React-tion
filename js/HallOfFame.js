@@ -52,10 +52,10 @@ export class HallOfFame extends React.Component {
           <h1 className='hof'>Winner: Ceci Gomez</h1>
           <img src='./public/img/pinkborders.png' className='press-lower-border' />
         </div>
-        <div className='hof-six hof-div'>
+        <div className='press-six hof-div'>
           <h1 className='hof'>Episode 1</h1>
           <img src='./public/img/greenborders.png' className='press-top-border' />
-          <h1 className='hof'>Winner: Patricia Boiko</h1>
+          <h1 className='hof six-winner'>Winner: Patricia Boiko</h1>
           <img src='./public/img/pinkborders.png' className='press-lower-border' />
         </div>
         <Footer className='main-footer' />

@@ -137,6 +137,30 @@ a.header-past-shows:hover {
   margin-top: 15vw;
 }
 
+.vid-div {
+  margin-top: 40px;
+  margin-left: 40px !important;
+  margin-right: 40px !important;
+  text-align: center;
+  float: none;
+  display: inline-block;
+}
+
+.clips-one {
+  margin-top: 20vw !important;
+}
+
+.clips-last {
+  margin-bottom: 40vw;
+}
+
+.clips-div {
+  float: none;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .landing {
   padding: 15px 30px;
   border-radius: 5px;
@@ -243,7 +267,7 @@ a.header-past-shows:hover {
 .team {
   background-color: #bfffce;
   padding: 20px;
-  width: 30%;
+  width: 35%;
   margin-right: auto;
   margin-left: auto;
   position: relative;
@@ -530,11 +554,14 @@ p.press {
   margin-top: 80px;
 }
 
-.hof-six {
+.press-six {
   margin-top: 80px;
-  margin-bottom: 20vw;
+  margin-bottom: 20vw !important;
 }
 
+.six-winner {
+  margin-top: 60px !important;
+}
 .hof-div {
   background-color: rgb(255, 255, 255);
   margin-bottom: 20px;
@@ -550,6 +577,15 @@ h1.hof {
   font-weight: 200;
   font-size: 28px;
   margin-top: 0px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+h1.clip-header {
+  font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 28px;
+  margin-top: 20px;
   margin-left: 30px;
   text-align: center;
 }
@@ -576,6 +612,7 @@ li h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 22px;
+  margin-top: 20px;
   text-align: center;
   line-height: 24px;
   margin-bottom: 0px;
@@ -589,7 +626,7 @@ li h2 {
   text-align: center;
   line-height: 22px;
   margin-top: 3px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 li {

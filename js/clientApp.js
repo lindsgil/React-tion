@@ -4,6 +4,7 @@ import { BrowserRouter, Match } from 'react-router'
 import { Provider } from 'react-redux'
 import store from './store'
 import Landing from './Landing'
+import Vids from './Vids'
 import {PressPage} from './PressPage.js'
 import {HallOfFame} from './HallOfFame.js'
 import '../public/normalize.css'
@@ -19,6 +20,10 @@ class App extends React.Component {
             <Match
               exactly pattern='/presspage'
               component={PressPage}
+            />
+            <Match
+              exactly pattern='/vids'
+              component={Vids}
             />
             <Match
               exactly pattern='/halloffame'
