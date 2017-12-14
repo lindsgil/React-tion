@@ -62,6 +62,91 @@ ul.menu {
   display: block;
 }
 
+button.hamburger-button {
+  background: none;
+  right: 15px;
+  position: absolute;
+  margin-right: 1vw;
+  margin-bottom: auto;
+  color: white;
+  border: 0;
+  font-size: 9vw;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 999999;
+  float: right;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu li {
+
+}
+
+button.hamburger-button:focus .mobile-menu {
+  display: block;
+}
+
+.hamburger-menu-list {
+  z-index: 999999 !important;
+  margin-top: 15vw;
+  font-weight:bold;
+  font-size: 3vw;
+  width: 50%;
+  background: rgba(251,210,200,0.8);
+  font-family: Didot bold;
+  display: block;
+  text-align: center;
+  float: right;
+}
+.hamburger-menu-list ul {
+  list-style-type: none;
+  list-style-image: none;
+  color: white;
+  background-color: black;
+  padding: 1vw;
+  top: 0px;
+  position: fixed;
+  z-index: 99999;
+  margin-top: 100px;
+  height: 100%;
+}
+.hamburger-menu-list li {
+  display: block;
+  height: 14%;
+  color: black;;
+  padding: 3vw;
+  z-index: 99999;
+}
+.hamburger-menu-list ul li a {
+  text-decoration: none;
+  color: white;
+  opacity: 1.0;
+  margin-top: 10px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+}
+.hamburger-menu-list ul li a:hover {
+  color: white;
+  text-decoration:none;
+  opacity: 1.0;
+}
+.hamburger-menu-list a{
+  text-decoration:none;
+  color: white;
+  opacity: 1.0;
+}
+.hamburger-menu-list a:hover{
+  text-decoration:none;
+  color: white;
+  opacity: 1.0;
+}
+
 .header-ticket {
       font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
       color: #ffffff;
@@ -130,6 +215,20 @@ a.header-vids:hover {
 }
 
 a.header-past-shows:hover {
+  color: #ffbfbf;
+}
+
+.header-phone {
+      font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+      color: #ffffff;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 30px;
+      margin-right: 30px;
+      margin-left: 10px;
+}
+
+a.header-phone:hover {
   color: #ffbfbf;
 }
 
@@ -242,7 +341,7 @@ a.header-past-shows:hover {
   margin-top: 30px;
   text-align: left;
   margin-left: 30px;
-  margin-right: 15px;
+  margin-right: 13px;
 }
 
 .details, .search {
@@ -534,7 +633,12 @@ p.press {
 }
 
 .press-one {
-  margin-top: 20vw;
+  margin-top: 15vw;
+}
+
+.press-last {
+  margin-top: 15vw;
+  margin-bottom: 15vw !important;
 }
 
 .press-two {
@@ -790,4 +894,67 @@ header > input {
 
 .details > header + section {
   margin-top: 25px;
+}
+
+@media (max-width: 800px) {
+  .video-player {
+    margin-top: 30vw;
+    width: 100%;
+  }
+
+  .about {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 200px;
+  }
+
+  .team-logo {
+    width: 100%;
+    left: 20%;
+    top: 930px;
+  }
+
+  .team-text {
+    right: 16%;
+  }
+
+  .team {
+    width: 100%;
+  }
+
+  .phone-number {
+    display: none;
+  }
+
+  .press-one {
+    margin-top: 180px;
+    width: 100%;
+  }
+
+  .press-two {
+    width: 100%;
+  }
+
+  .press-three {
+    width: 100%;
+  }
+
+  .press-four {
+    width: 100%;
+    margin-bottom: 160px;
+  }
+
+  .press-five {
+    width: 100%;
+  }
+
+  .press-six {
+    width: 100%;
+    margin-bottom: 200px;
+  }
+
+  .vid-div {
+    width: 100%;
+  }
+
 }

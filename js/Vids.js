@@ -79,7 +79,7 @@ export default class Vids extends React.Component {
           <h1 className='clip-header'>Episode 6</h1>
           <img src='./public/img/pinkborders.png' className='press-lower-border' />
         </div>
-        <div className='press-one hof-div'>
+        <div className='press-last hof-div'>
           <img src='./public/img/greenborders.png' className='press-top-border' />
           <iframe width='560' height='315' src='https://www.youtube.com/embed/6ydH8c5tWXc' frameBorder='0' gesture='media' allow='encrypted-media' allowFullScreen className='vid-div' />
           <h1 className='clip-header'>Episode 6</h1>
